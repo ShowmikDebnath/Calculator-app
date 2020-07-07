@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+}
+h3{
+	color: #ccc;
+	margin-top: 10px;
+		
+}
+
+
+#calculator{
+	width: 300px;
+	height: 386px;
+	border: 5px solid black;
+	text-align: center;
+	background: gray;
+	margin: 100px auto;
+	box-shadow: 0px 0px 30px gray;
+}
+#display{
+	margin-top: 0px;
+	margin-bottom: 15px;
+	width: 260px;
+	height: 40px;
+	border: 1px solid blue;
+	box-shadow: 0px 0px 30px black;
+	text-align: right;
+}
+#keys{
+	width: 50px;
+	height: 40px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 20px skyblue;
+	cursor: pointer;
+}
+#equal{
+	width: 110px;
+	height: 40px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px skyblue;
+	cursor: pointer;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	
+	<div id="calculator">
+	<form action="">
+		<h3><u>Calculator</u></h3>
+		<input type="text" placeholder="0" id="display" />
+		<br/>
+		<input type="button" value="c" id="keys" onclick="addtoscreen('c')" />
+		<input type="button" value="<--" id="keys" onclick="backspace()" />
+		<input type="button" value="x^2" id="keys" onclick="power('2')" />
+		<input type="button" value="+" id="keys" onclick="addtoscreen('+')" />
+		<br/>
+		<input type="button" value="7" id="keys" onclick="addtoscreen('7')" />
+		<input type="button" value="8" id="keys" onclick="addtoscreen('8')" />
+		<input type="button" value="9" id="keys" onclick="addtoscreen('9')" />
+		<input type="button" value="-" id="keys" onclick="addtoscreen('-')" />
+		</br/>
+		<input type="button" value="4" id="keys" onclick="addtoscreen('4')" />
+		<input type="button" value="5" id="keys" onclick="addtoscreen('5')" />
+		<input type="button" value="6" id="keys" onclick="addtoscreen('6')" />
+		<input type="button" value="*" id="keys" onclick="addtoscreen('*')" />
+		<br/>
+		<input type="button" value="1" id="keys" onclick="addtoscreen('1')" />
+		<input type="button" value="2" id="keys" onclick="addtoscreen('2')" />
+		<input type="button" value="3" id="keys" onclick="addtoscreen('3')" />
+		<input type="button" value="/" id="keys" onclick="addtoscreen('/')" />
+		<br/>
+		<input type="button" value="0" id="keys" onclick="addtoscreen('0')" />
+		<input type="button" value="." id="keys" onclick="addtoscreen('.')" />
+		<input type="button" value="=" id="equal" onclick="answer()" />
+		
+	</form>
+	
+	</div>
+	
+	<script src="logic.js"></script>
+</body>
+</html>
